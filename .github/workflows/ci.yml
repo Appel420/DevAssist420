@@ -10,10 +10,10 @@ on:
 permissions:
   contents: read
 
-jobs:
+jobs: active
   backend:
-    name: Backend tests
-    runs-on: [self-hosted, ubuntu-latest]
+    name: Npm Running 
+    runs-on: self-hosted Linux ARM64
     defaults:
       run:
         working-directory: backend
