@@ -10,10 +10,10 @@ on:
 permissions:
   contents: read
 
-jobs:
+jobs: active
   backend:
     name: Npm Running 
-    runs-on: self-hosted Limux ARM64
+    runs-on: self-hosted Linux ARM64
     defaults:
       run:
         working-directory: backend
