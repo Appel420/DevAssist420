@@ -13,7 +13,7 @@ permissions:
 jobs:
   backend:
     name: Npm Running 
-    runs-on: macos-latest
+    runs-on: self-hosted Limux ARM64
     defaults:
       run:
         working-directory: backend
